@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ImrulkayeSifat/Node_Js/issues"
   },
-  "homepage": "https://github.com/ImrulkayeSifat/Node_Js#readme"
+  "homepage": "https://github.com/ImrulkayeSifat/Node_Js#readme",
+  "dependencies": {
+    "nodemon": "^1.19.2"
+  }
 }
